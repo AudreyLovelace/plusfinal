@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="cont">
+      <header>
+        <form>
+          <input id="city" type="search" placeholder="Type a city" />
+          <input id="button1" type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <h1>New York</h1>
+        <h2>&nbsp</h2>
+        <h3>&nbsp</h3>
+      </main>
+      <footer>
+        <img id="bigimg" src="" alt="" />
+        <h4>&nbsp&nbsp</h4>
+        <h5>
+          <span id="cel">°C</span>
+          <strong>|</strong>
+          <span id="far">°F</span>
+        </h5>
+        <ul>
+          <li id="li1">Precipitation: 0%</li>
+          <li id="li2">Humidity: <span>77</span>%</li>
+          <li id="li3">Wind: <span>8</span> km/h</li>
+        </ul>
+      </footer>
+      <section></section>
+      <p id="openSource">
+        <a href="https://github.com/AudreyLovelace/shecodesplusweek7"
+          >Open source code,</a
+        >
+        by Audrey Lovelace
+      </p>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
